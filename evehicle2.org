@@ -18,11 +18,17 @@ https://hobbyking.com/en_us/turnigy-5000mah-4s1p-14-8v-20c-hardcase-pack-1.html?
 #+TBLFM: $5='(/ 20.0 $2);N :: $6='(/ (* $3 $4) 1000);N :: $7='(* $5 $1);N :: $8='(* $2 4.2);N :: $9='(/ (fround (* 10 $8 (/ $3 1000))) 10.0);N :: $10='(/ (fround (* (/ $1 $9 ) 1000)) 1000.0);N :: $12='(/ (fround (* (/ $11 $9) 10)) 10.0);N
 
 * Speed controller
-  maytech?
+  Needs to be able to put out 150A at 80V 
+
+  Ideally VESC6 based, not sure if this is possible
+
+** maytech?
 
   190$ 200A 12S/50V
   https://maytech.cn/collections/speed-controllers/products/maytech-200a-vesc6-0-based-speed-controller-with-anti-spark-switch-for-electric-skateboard-mountainbaord?variant=28583516143680
 
+** TODO contact TORP (Croatian speed controller company)
+   http://www.torpmotors.com/
 
 * Dash
 
